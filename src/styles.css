@@ -405,21 +405,6 @@ footer{
     margin-left: -100px;
   }
 
-.section--fourth--logo{
-    display: flex;
-    justify-content: space-between;
-    width: 119.74px;
-height: 51.17px;
-top: 139.82px;
-left: 16px;
-  gap: 150px;
-  opacity: 0px;
-  margin-left: 270px;
-  margin-top: 520px;
-  
-  }
-
-
   .fourth{
     justify-content: center;
     position: relative;
@@ -430,9 +415,9 @@ left: 16px;
     height: 51.17px;
     top: 139.82px;
     left: 16px;
-    gap: 150px;
+    gap: 85px;
     opacity: 0px;
-    margin-left: 250px;
+    margin-left: 275px;
     margin-top: -220px;
   }
   
@@ -449,8 +434,8 @@ left: 16px;
     align-items: center;
     justify-content: center;
     margin-top: 70px;
-    margin-right: 200px;
-    margin-left: -50px;
+    margin-right: 500px;
+    margin-left: -350px;
     align-items: center;
     justify-content: center;
   }
