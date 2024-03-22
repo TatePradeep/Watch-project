@@ -101,6 +101,11 @@ text-align: left;
 
 }
 
+.second h2 {
+  font-size: 3rem;
+font-weight: 200;
+}
+
 .first p {
   font-family: Inria Serif;
   font-size: 1.2rem;
