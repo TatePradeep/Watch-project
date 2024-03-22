@@ -337,12 +337,10 @@ footer {
     overflow-x: hidden;
   }
 
-  .first h1{
-    font-size: 4rem;
-    line-height: 4rem;
-    letter-spacing: -0.1rem;
+  .first h2{
+    font-size: 32px;
     width: 50%;
-    margin: 0 0 15px 0px;
+    margin: 0 ;
   }
 
   .nav--bar{
@@ -364,12 +362,19 @@ footer {
 
   .section--one--container > p {
     width: 70%;
+    margin: 0;
   }
 
   
   .section--third--container {
     width: 100%;
     margin-left: 7%;
+    padding: 0;
+  }
+
+  .section--third--container h2 {
+    margin: 0;
+    font-size: 32px;
   }
 
   .custom--bg{
@@ -406,9 +411,9 @@ footer {
   }
 
   .second h2 {
-    font-size: 3rem;
-    line-height: 3rem;
+    font-size: 32px;
     letter-spacing: 0;
+    margin: 0;
   }
 
   h2{
