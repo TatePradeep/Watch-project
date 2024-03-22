@@ -351,7 +351,7 @@ footer{
 
   
   .section--third--container {
-    width: 220px;
+    width: 100%;
     margin-left: 7%;
   }
 
@@ -383,8 +383,22 @@ footer{
   }
 
   .second{
-    width: 80%;
+    width: 100%;
     margin-left: 7%;
+    padding-top: 200px;
+  }
+
+  .second h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+    letter-spacing: 0;
+  }
+
+  h2{
+    font-family: Zanna Personal Use Only;
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 3rem;
   }
   
 .nav--bar{
@@ -412,7 +426,6 @@ left: 16px;
   }
   .section--fourth--logo{
     display: flex;
-    justify-content: space-between;
     width: 119.74px;
     height: 51.17px;
     top: 139.82px;
@@ -425,9 +438,10 @@ left: 16px;
   
   .section--fourth--logo h1{
     font-family: Zanna Personal Use Only;
-font-size: 51.17px;
-font-weight: 400;
-line-height: 69.08px;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 69.08px;
+    margin-left: 5px;
 
   }
   
