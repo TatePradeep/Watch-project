@@ -8,7 +8,7 @@ import {
     SSAOPlugin,
     mobileAndTabletCheck,
     BloomPlugin,
-    Vector3, GammaCorrectionPlugin, MeshBasicMaterial2, Color, AssetImporter
+    GammaCorrectionPlugin, MeshBasicMaterial2, Color, AssetImporter
 } from "webgi";
 import "./styles.css";
 
@@ -46,7 +46,7 @@ async function setupViewer(){
         // isAntialiased: true,
     })
 
-    const isMobile = mobileAndTabletCheck()
+    const isMobile = window.innerWidth < 600;
     // console.log(isMobile)
 
     const manager = await viewer.addPlugin(AssetManagerPlugin)
