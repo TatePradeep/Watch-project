@@ -285,9 +285,9 @@ padding-left: 700px;
 }
 
 .left {
-  align-items: center;
-  margin-left: 40%;
-  width: 100%;
+  align-items: start;
+  margin-left:100px;
+  width: 40%;
   justify-items: center;
 }
 
@@ -296,13 +296,17 @@ padding-left: 700px;
   margin-left: -6px;
 }
 
-/* .right {
+.right {
   width: 30%;
+  margin-left: 300px;
+  margin-top: 25px;
 }
 
 .social {
   width: 30%;
-} */
+  margin-left: 50px;
+  margin-top: -13px;
+}
 
 /* MOBILE ADJUSTMENTS */
 
